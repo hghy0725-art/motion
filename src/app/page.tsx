@@ -154,8 +154,14 @@ export default function Home() {
                 ALL GENDERS
               </h2>
             </div>
-            <div className="lg:col-span-7">
-              <p className="text-base leading-[1.9] text-white/65 md:text-lg">
+            <div className="lg:col-span-7 lg:pt-8">
+              <p
+                className="hidden text-[10px] uppercase tracking-widest3 lg:block lg:invisible"
+                aria-hidden="true"
+              >
+                Brand Credo
+              </p>
+              <p className="text-base leading-[1.9] text-white/65 md:text-lg lg:mt-4">
                 M·A·C은 1984년 토론토에서 탄생한 프리스티지 메이크업 브랜드입니다.
                 립스틱은 초기부터 브랜드의 핵심이었고, Madonna 촬영에 사용된
                 Russian Red로 전설이 시작되었습니다. 2024년 40주년을 맞아
