@@ -9,27 +9,24 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        cream: {
-          50: "#FDFBF7",
-          100: "#F7F2EA",
-          200: "#EDE4D6",
-        },
-        sand: {
-          400: "#C4B5A0",
-          500: "#A89580",
-          600: "#8A7864",
-        },
-        ink: {
-          800: "#2C2824",
-          900: "#1A1714",
+        mac: {
+          black: "#000000",
+          white: "#FFFFFF",
+          red: "#C41230",
+          gold: "#C9A96E",
+          gray: "#8A8A8A",
+          surface: "#111111",
+          border: "#222222",
         },
       },
       fontFamily: {
         sans: ["var(--font-pretendard)", "system-ui", "sans-serif"],
-        serif: ["var(--font-cormorant)", "Georgia", "serif"],
+        display: ["var(--font-display)", "sans-serif"],
+        body: ["var(--font-body)", "system-ui", "sans-serif"],
       },
       letterSpacing: {
-        widest2: "0.2em",
+        widest2: "0.25em",
+        widest3: "0.35em",
       },
     },
   },

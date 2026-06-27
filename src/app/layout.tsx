@@ -2,13 +2,13 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "LUMÉRA — Comfort Derma Lab",
+  title: "M·A·C — Macximal Lipstick Rebrand",
   description:
-    "저자극 고보습 더마 케어 브랜드 LUMÉRA. 피부 본연의 편안함을 연구합니다.",
+    "Maximum Color, Maximum Impact. M·A·C Macximal Silky Matte Lipstick 리브랜딩 소개.",
   openGraph: {
-    title: "LUMÉRA — Comfort Derma Lab",
+    title: "M·A·C — Macximal Lipstick Rebrand",
     description:
-      "저자극 고보습 더마 케어 브랜드 LUMÉRA. 피부 본연의 편안함을 연구합니다.",
+      "Maximum Color, Maximum Impact. M·A·C Macximal Silky Matte Lipstick 리브랜딩 소개.",
     type: "website",
     locale: "ko_KR",
   },
@@ -21,7 +21,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="ko">
-      <body className="antialiased">{children}</body>
+      <body className="bg-mac-black antialiased">{children}</body>
     </html>
   );
 }
